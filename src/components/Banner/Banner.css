@@ -1,0 +1,24 @@
+.bannerManin {
+    background: url(https://publicassets.leverageedu.com/homepage/homepageV2/bgDesktop.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .banner {
+    position: relative;
+    margin: 60px auto;
+  }
+  .banner .row {
+    height: 100%;
+  }
+  .banner .left {
+    height: 100% !important;
+  }
+  
+  .banner .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner .right img {
+    width: 75%;
+  }

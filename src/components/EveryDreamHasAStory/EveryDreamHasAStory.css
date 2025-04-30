@@ -1,0 +1,61 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 16px;
+  }
+  
+  .card {
+    position: relative;
+    background-color: #f0f0f0;
+    height: 368px;
+    text-align: center;
+    border-radius: 8px;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .card2,
+  .card3 {
+    grid-column: span 1; /* 25% each */
+  }
+  
+  .card4,
+  .card5 {
+    grid-column: span 2; /* 50% each */
+  }
+  .card1 {
+    grid-column: span 2;
+    background-image: url("https://publicassets.leverageedu.com/homepage/homepageV2/img7.png");
+  }
+  .card2 {
+    background-image: url("https://publicassets.leverageedu.com/homepage/homepageV2/media2.png");
+  }
+  .card3 {
+    background-image: url("https://publicassets.leverageedu.com/homepage/homepageV2/media3.png");
+  }
+  .card4 {
+    background-image: url("https://publicassets.leverageedu.com/homepage/homepageV2/media4.png");
+  }
+  .card5 {
+    background-image: url("https://publicassets.leverageedu.com/homepage/homepageV2/media6.png");
+  }
+  .playBtnBox {
+    height: 48px;
+    width: 48px;
+    background: rgba(0, 0, 0, 0.48);
+    border: 2px solid #fff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+  .playBtnBox img {
+    height: 24px;
+    width: 24px;
+  }
+  
